@@ -1,0 +1,26 @@
+<!--header start-->
+<section class="agency header" id="header">
+  <app-title-serv></app-title-serv>
+<!--Here Section Header-->
+</section>
+<!-- Nav Start-->
+
+<header class="app2 loding-header nav-abs custom-scroll">
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+        <nav class="fixed-top navbara" (scroll)="onWindowScroll($event);" style="padding-top:0px;padding-bottom:0px;">
+            <a href="javascript:void()" class="logo-light d-inline-block m-r-auto"><img src="assets/images/logo/9.png" alt="" class="img-fluid"></a>
+            <app-menu></app-menu>
+        </nav>
+      </div>
+  </div>
+</div>
+</header>
+<!-- Nav end-->
+
+<!--header end-->
+<!-- Section ends -->
+<app-serv-list></app-serv-list>
+<app-footer></app-footer>

@@ -1,0 +1,271 @@
+<!--header start-->
+<!--header start-->
+<section class="agency header" id="header">
+    <div class="agency bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="center-text">
+                        <div>
+                            <div class="header-text">
+                                <h1 class="text-uppercase"><span class="bold-text">C Square</span> Group</h1>
+                            </div>
+                            <div class="header-sub-text">
+                                <p> Best in the Market : One Stop for your Architectural, Construction & Interior Needs at Affordable Prices
+                                   
+                                </p>
+                            </div>
+                            <div class="link-horizontal">
+                                <ul>
+                                    <li>
+                                        <a class=" btn btn-default btn-gradient text-white">request a quote</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-default btn-gradient text-white active">start now</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="wave"></div>
+    </div>
+    <div class="set-abs abs-horizon-center girl-boy">
+       <!-- <img src="assets/images/agency/slider/img.png" alt="" class="img-fluid" aTilt  data-tilt data-tilt-max="5"
+             data-tilt-speed="400" data-tilt-perspective="500">
+        -->
+        <div class="plus-container plus-container6">
+            <div class="plus white">
+            </div>
+        </div>
+        <div class="plus-container plus-container7">
+            <div class="plus white">
+            </div>
+        </div>
+        <div class="plus-container plus-container8">
+            <div class="plus white">
+            </div>
+        </div>
+        <!--
+        <div class="circle-container">
+            <div class="gradient-circle-big">
+            </div>
+        </div>
+        <div class="circle-container small">
+            <div class="gradient-circle-small">
+            </div>
+        </div>
+        -->
+    </div>
+    <div class="plus-container">
+        <div class="plus">
+        </div>
+    </div>
+    <div class="plus-container plus-container2">
+        <div class="plus plus-medium">
+        </div>
+    </div>
+    <div class="plus-container plus-container3">
+        <div class="plus plus-small">
+        </div>
+    </div>
+    <div class="plus-container plus-container4">
+        <div class="plus plus-small">
+        </div>
+    </div>
+    <div class="plus-container plus-container5">
+        <div class="plus plus-medium">
+        </div>
+    </div>
+    
+</section>
+<!--header end-->
+
+<!-- Nav Start-->
+<header class="app2 loding-header nav-abs custom-scroll">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <!--For Nav bar Scrolling 
+                Used onWindowScroll Function passing css class with name navbar 
+                and changing it to navbar-inverse on scroll (Y Offset : Vertical Scroll)
+                by writing a function using hostlistener attribute.
+                -->
+              <nav class="fixed-top navbara" (scroll)="onWindowScroll($event);" style="padding-top:0px;padding-bottom:0px;">
+                  <a href="javascript:void()" class="logo-light d-inline-block m-r-auto"><img src="assets/images/logo/9.png" alt="" class="img-fluid"></a>
+                  <app-menu></app-menu>
+                <!--We can change menu in shared/components/menu-->
+              </nav>
+            </div>
+        </div>
+    </div>
+    </header>
+<!-- Nav end-->
+
+<!--header end-->
+
+<!--agency content start-->
+<section class="agency agency-content about-bg">
+    <h3 class="text-as-shadow">About <br/> us</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 offset-xl-3 col-md-9 offset-md-3">
+                <div class="agency-header-center-container">
+                    <div class="borders"></div>
+                    <div class="agency-head">
+                        <h3 class="agency-head-text">Your Vision <span class="block-span">is Our Vision</span>
+                        </h3>
+                    </div>
+                </div>
+  
+                <p class="agency-para"> 
+                    From conception to completion,
+                    inception to installation we are your
+                    Single Point of contact, delivering
+                    your needs, adding value &
+                    business to your brands.
+                </p>
+                <a  [routerLink]="['/about']" routerLinkActive="active" class=" btn btn-default btn-gradient text-white">view more</a>
+            </div>
+        </div>
+    </div>
+    <div class="side-img  set-abs left-0 top-0" [@fadeInLeft]="fadeInLeft">
+        <div class="plus-container plus-container9">
+            <div class="plus white">
+            </div>
+        </div>
+        <div class="plus-container plus-container10">
+            <div class="plus plus-medium white">
+            </div>
+        </div>
+        <div class="plus-container plus-container11">
+            <div class="plus plus plus-small white">
+            </div>
+        </div>
+        <img src="assets/images/agency/about-us/image.png" alt="" class="img-fluid about-img">
+    </div>
+    <img src="assets/images/agency/agency-abs-img.png" alt="" class="img-fluid blue-img">
+  </section>
+  <!--agency content end-->
+<!--service section start-->
+
+<app-serv-list></app-serv-list>
+<!--service section end-->
+<!--video section start-->
+<section class="agency video video-bg p-0" id="video">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="text-center">
+                    <div class="d-inline-block">
+                        <img src="assets/images/agency/videos/bg.png" alt="" class="img-fluid bg-video">
+                        <div class="abs-center">
+                            <div>
+                                <div class="m-b-20">
+                                    <a href="javascript:void(0)" class="button">
+                                        <img src="assets/images/agency/videos/icon.png" alt=""
+                                            class="img-fluid video-img" (click)="openVerticallyCentered(content)">
+                                    </a>
+                                    <ng-template #content let-modal>
+                                        <div class="modal-body video-modal">
+                                            <button type="button" class="close" aria-label="Close"
+                                                (click)="modal.dismiss('Cross click')">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <iframe class="mfp-iframe" frameborder="0" allowfullscreen=""
+                                                src="//www.youtube.com/embed/dNIfsv1rKJo?autoplay=1"></iframe>
+                                        </div>
+                                    </ng-template>
+                                </div>
+                                <div>
+                                    <a href="" class="video w-100">
+                                        <img src="assets/images/agency/videos/title-icon.png" alt=""
+                                            class="img-fluid m-b-20">
+                                    </a>
+                                    <div class="">
+                                        <h3 class="video-heading text-white text-center">Who are We
+                                        </h3>
+                                        <h6 class="video-text text-white  text-center">We create. We Develop. We
+                                            Inspire.</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--video section end-->
+<!-- testimonial section start-->
+<!--counter section start-->
+<section class="agency counter counter-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6 counter-container" *ngFor="let data of counter">
+                <div class="counters hover-counter">
+                    <img [src]="data.img" alt="" class="img-fluid counter-img">
+                    <div class="counter-text">
+                        <div class="count-number">
+                            <h2 class="counts text-center">{{data.count}}</h2>
+                        </div>
+                        <div class="count-desc">
+                            <h5 class="text-center">{{data.text}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--counter section end-->
+  <!-- subscribe section Start-->
+
+<footer class="app1 subscribe bg" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="title title1">
+                    <div class="main-title">
+                        <h2>Subscribe to our newsletter</h2>
+                    </div>
+                    <div class="sub-title">
+                        <p class="para">
+                            Want to know more about us and get updated about our projects
+                            Sign up for our email breif hand picked articles, updates & workprofiles
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="subscribe">
+                    <div class="center-content">
+                        <div class="form-group">
+                            <div class="d-flex">
+                                <input type="email" class="form-control " maxlength="45"
+                                       placeholder="Please Enter Your Email Address"
+                                       name="email">
+                                <div class="button-primary">
+                                    <button type="submit"
+                                            class=" btn btn-default btn-gradient text-white text-uppercase">subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- subscribe section end-->
+
+<app-footer></app-footer>

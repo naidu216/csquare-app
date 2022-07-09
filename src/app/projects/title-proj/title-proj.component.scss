@@ -1,0 +1,192 @@
+ /* ------------------------------------------------------
+    
+        5.2. Breadcrumb
+        
+    ------------------------------------------------------ */
+
+    .nv-breadcrumb-area{
+        position: relative;
+        z-index: 1;
+        padding: 50px 0px;
+        overflow: hidden;
+    }
+
+    .nv-breadcrumb-area .container{
+        z-index: 3;
+        position: relative;
+    }
+
+    .nv-breadcrumb-image{
+        background-image:url("../../../assets/images/agency/breadcrumb_img.png") ;
+        width: 80%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .nv-breadcrumb-title{
+        font-family: 'Montserrat', sans-serif;
+        color: #f1f1f1;
+        font-size: 9em;
+        line-height: 1em;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: absolute;
+        top: 18.66%;
+        left: 7%;
+        white-space: nowrap;
+        
+        -webkit-user-select: none;
+           -moz-user-select: none;
+             -o-user-select: none;
+                user-select: none;
+    }
+
+    .nv-breadcrumb-container{
+        display: inline-block;
+        min-width: 360px;
+        max-width: 550px;
+        border-width: 3px 3px 3px 0;
+        padding: 58px 30px 58px 0;
+        border-style: solid;
+        border-color: #9a9191;
+        margin-left: 17.10%;
+        margin-right: 17.10%;
+        position: relative;
+        z-index: 3;
+    }
+
+    .nv-breadcrumb-container::before{
+        content: "";
+        display: block;
+        border-width: 37px 0 37px 0;
+        border-style: inherit;
+        border-color: inherit;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+    }
+
+    .nv-breadcrumb{
+        position: relative;
+        z-index: 2;
+    }
+
+    .nv-breadcrumb > li{
+        display: inline-block;
+        color: #9a9191;
+    }
+
+    .nv-breadcrumb > li:not(:last-child)::after{
+        content: "/";
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 1px;
+    }
+
+    .nv-breadcrumb a{
+        color: #9a9191;
+    }
+
+    .nv-breadcrumb a:hover{
+        color: #e5a01e;
+    }
+/* ------------------------------------------------------
+    
+    14. Media Queries
+    
+------------------------------------------------------ */
+@media only screen and (max-width: 1199px){
+
+
+    .nv-breadcrumb-title{
+        font-size: 7em;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+    
+
+
+    .nv-breadcrumb-title{
+        font-size: 6em;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+
+    .nv-widget .nv-entries .nv-entry-thumb-area{
+        max-width: 40%;
+        margin-right: 15px;
+    }
+
+    .nv-widget .nv-entries .nv-entry-meta:not(:last-child){
+        margin-bottom: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    [class*="row"] > [class*="col-"]:not([class*="col-sm"]):not([class*="col-xs"]):not(:last-child){
+        margin-bottom: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+    .nv-breadcrumb-title{
+        font-size: 5em;
+    }
+
+    .nv-breadcrumb-container{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .nv-breadcrumb-image{
+        background-image:url("../../../assets/images/agency/breadcrumb_img.png") ;
+        width: 100%;
+    }
+
+    .nv-breadcrumb-image::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, .7);
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+
+    
+    .nv-breadcrumb-container{
+        min-width: initial;
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144 dpi){
+
+
+}

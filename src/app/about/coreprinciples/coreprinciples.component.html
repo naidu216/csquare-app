@@ -1,0 +1,46 @@
+<!--feature css start-->
+<section class="agnecy services" id="feaure">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <div class="title title2">
+              <h6 class="font-primary borders main-text text-uppercase"><span>Our Principles</span></h6>
+              <div class="sub-title">
+                  <h2 class="title-text text-capitalize text-center">Core Values</h2>
+              </div>
+          </div>
+
+      </div>
+          <div class="col-md-10 offset-md-1">
+            
+                  <div class="sub-title">
+                      <p class="sub-title-para">
+                        We believe we have created the most efficient domain for
+                          our users.
+                        Our practice reflects our principles. Our Thoughtful approach is Classical yet contemporary with ethnic indian touch</p>
+                  </div>
+              </div>
+          
+          <div class="col-xl-8 col-md-7">
+              <div class="center-text justify-content-center">
+                  <div class="image-container">
+                      <img src="assets/images/saas2/advance-feature/01.png" alt=""
+                           class="img-fluid advance-feature-img">
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-4 col-md-5">
+              <div *ngFor="let data of features">
+                  <div class="center-content justify-content-start">
+                      <img [src]="data.img" alt="" class="img-fluid">
+                      <div class="feature-content">
+                          <h5 class="feature-head">{{data.title}}</h5><br>
+                          <p class="feature-para">{{data.description}}</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--feature css end-->

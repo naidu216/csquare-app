@@ -1,0 +1,451 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/projects/yesvanthnilayam/1_1.jpg",
+        "name": "Yesvantha Nilayam",
+        "note": "Classical yet Contemporary",
+        "discription": "The clients wanted a house to serve as a base-of-action for their daily needs and other pursuits. The design involved completely working the interior of an 775-square-foot home keeping the requirements of the house intact. The interior design is simple and direct, eschewing doors and walls for a relatively open plan; and uses straightforward materials like Gurjan Ply, Gypsum Ceilings and ash cabinetry.The partition, intentionally tough looking serves as a counterpoint to the otherwise typical construction techniques. Ash-veneered folding dining-table accounts to an additional space whenever required.",
+        "discountPrice": 350.00,
+        "location": "Ongole | Andhrapradesh",
+        "status": "completed",
+        "EstimatedBudget": "5 Lakhs",
+        "Expenditure": "4.6Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/yesvanthnilayam/1_2.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/yesvanthnilayam/1_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/yesvanthnilayam/1_3.jpg"
+            },
+            
+            {
+                "imageName": "partition",
+                "images": "assets/images/projects/yesvanthnilayam/1_4.jpg"
+            },
+            {
+                "imageName": "Living Area",
+                "images": "assets/images/projects/yesvanthnilayam/1_5.jpg"
+            },
+            {
+                "imageName": "Dining cum Pooja",
+                "images": "assets/images/projects/yesvanthnilayam/1_6.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/images/projects/project2/1_1.jpg",
+        "name": "Project2",
+        "note": "Classical yet Contemporary",
+        "discription": "The clients wanted a house to serve as a base-of-action for their daily needs and other pursuits. The design involved completely working the interior of an 775-square-foot home keeping the requirements of the house intact. The interior design is simple and direct, eschewing doors and walls for a relatively open plan; and uses straightforward materials like Gurjan Ply, Gypsum Ceilings and ash cabinetry.The partition, intentionally tough looking serves as a counterpoint to the otherwise typical construction techniques. Ash-veneered folding dining-table accounts to an additional space whenever required.",
+        "discountPrice": 350.00,
+        "location": "Hyderabad | Telangana",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/project2/1_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/project2/1_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/project2/1_3.jpg"
+            }
+            
+        ]
+    },
+    
+    {
+        "id": 3,
+        "img": "assets/images/projects/projectBlue/2_1.jpg",
+        "name": "projectBlue",
+        "note": "Classical yet Contemporary",
+        "discription": "A breezy white and understated backdrop allows something else that comes from within you. Wooden Detailing exudes luxury & blush texture were delicately integrated throughout to soften the space We have combined the balance between the conventional & contemporary to elude flow of the design",
+        "discountPrice": 350.00,
+        "location": "BNReddy Nagar| Hyderabad",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/projectBlue/2_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/projectBlue/2_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/projectBlue/2_3.jpg"
+            }
+            
+        ]
+    },
+    {
+        "id": 4,
+        "img": "assets/images/projects/sujathaResidence/3_1.jpg",
+        "name": "SujathaResidence",
+        "note": "Classical yet Contemporary",
+        "discription": "From the first meeting to handover, this residence was delivered in 12 weeks. The living room has been designed for conservation, a large sofa with a pouffe stand in front & a tv unit. The dining area is made magical by a large square table designed & above is the suspended chandelier which lit the atmosphere",
+        "discountPrice": 350.00,
+        "location": "BNReddy Nagar| Hyderabad",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/sujathaResidence/3_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/sujathaResidence/3_2.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/sujathaResidence/3_3.jpg"
+            },
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/sujathaResidence/3_4.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/sujathaResidence/3_5.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/sujathaResidence/3_6.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "assets/images/projects/restaurant/5_1.jpg",
+        "name": "",
+        "note": "Classical yet Contemporary",
+        "discription": "In the spirit of true open-ness; the café style breakout is divided by only a banquette & glass wall with doors reserved for families. Great importance was given to the choice of materials & walls carvings.",
+        "discountPrice": 350.00,
+        "location": "BNReddy Nagar| Hyderabad",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/restaurant/5_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/restaurant/5_2.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/restaurant/5_3.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "assets/images/projects/officeRestHouse/6_1.jpg",
+        "name": "",
+        "note": "Classical yet Contemporary",
+        "discription": "In this office on the side wall beside the cabinet, a dramatic wooden finished wall greets visitors before they they take their seats. on the main front wall, besides the  lord’s display unit, 4 single-sided display cases maximize viewing space for changing products from the company’s ever-evolving product line. In additional there is a lounge for meetings in private with traditional furniture & a display unit of achievements that sets the mood for the discussions. The design goals for the projects included separating the lounge & bedroom from the commercial office space & create an emphasizing environment for taking a power naps in the middle of the hectic work hours",
+        "discountPrice": 350.00,
+        "location": "Tadepalligudem | Andhrapradesh",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/officeRestHouse/6_1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/officeRestHouse/6_2.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/officeRestHouse/6_3.jpg"
+            }
+        ]
+    },
+    
+    {
+        "id": 7,
+        "img": "assets/images/projects/guptaResidence/9_1.jpeg",
+        "name": "",
+        "note": "Classical yet Contemporary",
+        "discription": "In this office on the side wall beside the cabinet, a dramatic wooden finished wall greets visitors before they they take their seats. on the main front wall, besides the  lord’s display unit, 4 single-sided display cases maximize viewing space for changing products from the company’s ever-evolving product line. In additional there is a lounge for meetings in private with traditional furniture & a display unit of achievements that sets the mood for the discussions. The design goals for the projects included separating the lounge & bedroom from the commercial office space & create an emphasizing environment for taking a power naps in the middle of the hectic work hours",
+        "discountPrice": 350.00,
+        "location": "Tadepalligudem | Andhrapradesh",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/guptaResidence/9_1.jpeg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/GuptaResidence/9_2.jpeg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/guptaResidence/9_3.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "img": "assets/images/projects/ramaRajuResidence/1.jpg",
+        "name": "",
+        "note": "Classical yet Contemporary",
+        "discription": "In this office on the side wall beside the cabinet, a dramatic wooden finished wall greets visitors before they they take their seats. on the main front wall, besides the  lord’s display unit, 4 single-sided display cases maximize viewing space for changing products from the company’s ever-evolving product line. In additional there is a lounge for meetings in private with traditional furniture & a display unit of achievements that sets the mood for the discussions. The design goals for the projects included separating the lounge & bedroom from the commercial office space & create an emphasizing environment for taking a power naps in the middle of the hectic work hours",
+        "discountPrice": 350.00,
+        "location": "Tadepalligudem | Andhrapradesh",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/ramaRajuResidence/1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/ramaRajuResidence/2.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/ramaRajuResidence/3.jpg"
+            },
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/ramaRajuResidence/4.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/ramaRajuResidence/5.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/ramaRajuResidence/6.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "img": "assets/images/projects/tuniResidence/1.jpg",
+        "name": "",
+        "note": "Classical yet Contemporary",
+        "discription": "In this office on the side wall beside the cabinet, a dramatic wooden finished wall greets visitors before they they take their seats. on the main front wall, besides the  lord’s display unit, 4 single-sided display cases maximize viewing space for changing products from the company’s ever-evolving product line. In additional there is a lounge for meetings in private with traditional furniture & a display unit of achievements that sets the mood for the discussions. The design goals for the projects included separating the lounge & bedroom from the commercial office space & create an emphasizing environment for taking a power naps in the middle of the hectic work hours",
+        "discountPrice": 350.00,
+        "location": "Tadepalligudem | Andhrapradesh",
+        "status": "completed",
+        "EstimatedBudget": "7 Lakhs",
+        "Expenditure": "6.5Lakhs",
+        "category": "interior",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Interiors",
+            "budget",
+            "Completed"
+        ],
+        "variants": [
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/tuniResidence/1.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/tuniResidence/2.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/tuniResidence/3.jpg"
+            },
+            {
+                "imageName": "bedroom view 1",
+                "images": "assets/images/projects/tuniResidence/4.jpg"
+            },
+            {
+                "imageName": "bedroom view 2",
+                "images": "assets/images/projects/tuniResidence/5.jpg"
+            },
+            {
+                "imageName": "bedroom view 3",
+                "images": "assets/images/projects/tuniResidence/6.jpg"
+            }
+        ]
+    }
+]

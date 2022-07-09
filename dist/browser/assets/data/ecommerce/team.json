@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Venkatesh Naidu",
+        "note": "Tech Enthusiasist",
+        "discription": "An entrepreneur by choice and a leader by default, this guy is a hell of taskmaster.  He is people oriented and is the driving force to get the group of people work together. He is a passionate guy who strives for perfection throughout the life of each project ",
+        "designation":"Engineer/Civil",
+        "professionexp":"Track, BLT, Bridges & Buidlings",
+        "position":"CEO/Founder",
+        "category": "engineer"
+    },
+    {
+        "id": 2,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Srikanth Addagatla",
+        "note": "Chai Specalist",
+        "discription": "He take risks, albeit calculated, and then take responsibility for ensuing the success or failure, He is persistent & committed in taking risks and he can rightly called to be the real superstar. Although his motivational speeches seem boring his consistent pursuance outsmarts everything.",
+        "designation":"Engineer/Civil",
+        "professionexp":"Irrgation Water & Pipeline Projects",
+        "position":"CMD/Founder",
+        "category": "engineer"
+    },
+    {
+        "id": 4,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Dasardh Gutti",
+        "note": "Gossip Monger",
+        "discription": "Consistent and Mr. Dependable, he is someone who shows up every day and really grinds it out. He constantly pushes the envelope and always believes change for the better starts within. He is ever reliable and really a great find add-on for us",
+        "designation":"Engineer/Civil",
+        "professionexp":"Building Structural Design",
+        "position":"Structural Consultant",
+        "category": "engineer"
+    },
+    {
+        "id": 5,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Jahangeer Pasha",
+        "note": "Tech Enthusiasist",
+        "discription": "He has unique ability of coming up with swift management. He is master brain behind the company financial strategies and literally calculates well in his mind about the returns. His inquisitive & organized approach adds to the worth of the company.",
+        "designation":"Engineer/Civil",
+        "professionexp":"Buidling ",
+        "position":"CEO/Founder",
+        "category": "engineer"
+    },
+    {
+        "id": 6,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Venkateswar Reddy",
+        "note": "Tech Enthusiasist",
+        "discription": "This techie with a radiant smile knows the way into customer’s heart. He is our people’s person. He surely knows how to use his word power and adds value to the company. ",
+        "designation":"Engineer/Civil",
+        "professionexp":"Marketing",
+        "position":"Marketing Head/HR",
+        "category": "engineer"
+    },
+    {
+        "id": 7,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Teja Gatti",
+        "note": "Tech Enthusiasist",
+        "discription": "This young lad with sound knowledge is by far compatible with client’s easily. He is in true love with structures. He has great fondness for latest technologies and unwinds it by spending time exploring new facets in it.",
+        "designation":"Engineer/Civil",
+        "professionexp":"TownPlanning | Interior Designs | Arch Planning",
+        "position":"Lead Architect",
+        "category": "architect"
+    },
+    {
+        "id": 8,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Lalitha Tammana",
+        "note": "Calm & Fire",
+        "discription": "From a corporate job to an entrepreneurial career, there was no stopping her then and there is no stopping her now. The small wonder with her radiant smile knows the way in to the customer’s heart. She is a melting pot of ideas harvested from her motley experiences. One draws power by watching this meticulous girl in action. Her graph is a pretty steep one.",
+        "designation":"Engineer/Civil",
+        "professionexp":"Interior Designs | Planning | High Rise ",
+        "position":"Associate Architect",
+        "category": "architect"
+    }
+]

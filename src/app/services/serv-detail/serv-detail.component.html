@@ -1,0 +1,108 @@
+<!--Testimonial Reference About the specific detail-->
+<!--header start-->
+<section class="agency header" id="header">
+    <app-title-serv></app-title-serv>
+  <!--Here Section Header-->
+  </section>
+  <!-- Nav Start-->
+  
+  <header class="app2 loding-header nav-abs custom-scroll">
+  
+  <div class="container">
+    <div class="row">
+        <div class="col">
+          <nav class="fixed-top navbara" (scroll)="onWindowScroll($event);" style="padding-top:0px;padding-bottom:0px;">
+              <a href="javascript:void()" class="logo-light d-inline-block m-r-auto"><img src="assets/images/logo/9.png" alt="" class="img-fluid"></a>
+              <app-menu></app-menu>
+          </nav>
+        </div>
+    </div>
+  </div>
+  </header>
+  <!-- Nav end-->
+  <!--header end-->
+   
+  <section class="saas1 testimonial videos testimonial-bg">
+  <div class="container">
+      <div class="row">
+         <div class="col-md-5 col-sm-12">
+              <div class="center-content">
+                  <div class="video w-100">
+                      <a class="button center-content">
+                        <img [src]="service.imagevideo" alt="" (click)="openVerticallyCentered(content)" alt="video" class="img-fluid">
+                          
+                          <ng-template #content let-modal>
+                                  <div class="modal-body video-modal">
+                                      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <iframe class="mfp-iframe" frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/dNIfsv1rKJo?autoplay=1"></iframe>
+                                  </div>
+                          </ng-template>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-7">
+                    <div class="testimonial">
+                      <div class="testimonial-box">
+                        <h5 class="mt-0">{{service.name}}</h5><br>
+                        <!-- <h6>{{service.name}}</h6> -->
+                         <h6>{{service.discription}}</h6>
+                      </div>
+                  </div>
+               
+             
+          </div>
+      </div>
+  </div>
+</section>
+<!-- section start -->
+<section class="agency blog blog-sec blog-sidebar blog-split sider">
+  <div class="container">
+      <div class="row pl-0 pr-0">
+          <div class="col-lg-9">
+              <div class="row">
+                  <div class="col-12 blog-sec blog-list" *ngFor="let data of service.variants">
+                      <div class="blog-agency">
+                          <div class="row blog-contain pl-0 pr-0">
+                              <div class="col-xl-4 col-lg-5 col-md-6 p-0" [ngClass]="data.Id%2==0?'order-md-2':''">
+                                  <div class=" text-center">
+                                      <img [src]="data.img" alt="" class="img-fluid blog-img">
+                                  </div>
+                              </div>
+                              <div class="col-xl-8 col-lg-7 col-md-6 p-0">
+                                  <div class="img-container center-content">
+                                      <div class="center-content">
+                                          <div class="blog-info">
+                                              <div class="m-b-20">
+                                                  <div class="center-text">
+                                                      <i class="fa fa-clock-o m-r-10" aria-hidden="true"></i>
+                                                      <!-- <h6 class="m-r-25 font-blog">{{data.date}}</h6> -->
+                                                      <i class="fa fa-map-marker m-r-10" aria-hidden="true"></i>
+                                                      <h6 class="font-blog">{{data.type}}</h6>
+                                                  </div>
+                                              </div>
+                                              <h5 class="blog-head font-600">{{data.title}}</h5>
+                                              <p class="para2">{{data.content}}</p>
+                                              <div class="btn-bottom m-t-20">
+                                                  <!-- <a href="javascript:void()" class="text-uppercase">{{data.btn}}</a> -->
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3">
+            <app-project-sidebar></app-project-sidebar>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- section end -->
+
+<app-footer></app-footer>

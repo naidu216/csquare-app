@@ -1,0 +1,164 @@
+<section class="agency header" id="header">
+  <app-title-serv></app-title-serv>
+<!--Here Section Header-->
+</section>
+<!-- Nav Start-->
+
+<header class="app2 loding-header nav-abs custom-scroll">
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+        <nav class="fixed-top navbara" (scroll)="onWindowScroll($event);" style="padding-top:0px;padding-bottom:0px;">
+            <a href="javascript:void()" class="logo-light d-inline-block m-r-auto"><img src="assets/images/logo/9.png" alt="" class="img-fluid"></a>
+            <app-menu></app-menu>
+        </nav>
+      </div>
+  </div>
+</div>
+</header>
+
+<!-- work section -->
+<section id="how-work" class="saas1 howitwork">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <div class="title">
+                  <img src="assets/images/saas1/title-logo.png" alt="title-logo" class="img-fluid">
+                  <div class="main-title">
+                      <h2>
+                          <span class="theme-color">H</span>ow <span class="theme-color">I</span>t <span
+                              class="theme-color">W</span>ork
+                      </h2>
+                  </div>
+                  <hr>
+                  <div class="sub-title">
+                      <p class="p-padding">Guide to setup and configuration. You can present below a guide and a
+                          description of how your system configuration works and add some animated screens.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-12 work-tab">
+              <ul class="nav nav-pills justify-content-center " id="pills-tab" role="tablist">
+                  <li class="nav-item  text-center" *ngFor="let data of nav">
+                      <a class="nav-link" id="pills-work1-tab" [ngClass]="{'active show': work == data.title }"
+                                   (click)="openWorkSlide(data.title)">
+                          <img [src]="data.img" alt="tab-image-1">
+                          <h6>{{data.title}}</h6>
+                          <span></span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="work-tab-bg work-content p-t-50">
+      <div class="tab-content text-center" id="pills-tabContent">
+          <div class="tab-pane fade show active" *ngFor="let data of content" [ngClass]="{'active show': work == data.title }" id="pills-work1" role="tabpanel">
+              <img [src]="data.img" alt="tab-image-1" class="img-fluid">
+          </div>
+      </div>
+  </div>
+
+</section>
+<!-- end work section -->
+<!-- faq section -->
+<section id="faq" class="saas1 faq testimonial-bg">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="faq-block">
+                  <div>
+                      <h3 class="frequent-text">Frequently Asked Questions</h3>
+                      <h6>Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun
+                          and
+                          functional. Clean aesthetics supported by a strong concept is what we stand for.</h6>
+                      <div class="accordion faq" id="accordionExample">
+                          <div class="card">
+                                  <ngb-accordion [closeOthers]="true" activeIds="static-1">
+                                          <ngb-panel id="static-1">
+                                                  <ng-template ngbPanelTitle>              
+                                                         <a>
+                                                             <div class="fa fa-angle-right rotate"></div>
+                                                         </a>
+                                                         Do I need to make a payment?
+                                                        </ng-template>
+                                            <ng-template ngbPanelContent>
+                                                          No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is. No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is.
+                                          </ng-template>
+                                          </ngb-panel>
+                                          <ngb-panel id="static-2">
+                                                  <ng-template ngbPanelTitle>
+                                                          
+                                                         <a>
+                                                             <div class="fa fa-angle-right rotate"></div>
+                                                         </a>
+                                                         Do I need to make a payment?
+                                                     
+                                                        </ng-template>
+                                            <ng-template ngbPanelContent>
+                                                  
+                                                          No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is. No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is.
+                                                     
+                                          </ng-template>
+                                          </ngb-panel>
+                                          <ngb-panel id="static-3">
+                                                  <ng-template ngbPanelTitle>
+                                                         <a>
+                                                             <div class="fa fa-angle-right rotate"></div>
+                                                         </a>
+                                                         Do I need to make a payment?
+                                                        </ng-template>
+                                            <ng-template ngbPanelContent>
+                                                          No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is. No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is.
+                                          </ng-template>
+                                          </ngb-panel>
+                                          <ngb-panel id="static-4">
+                                                  <ng-template ngbPanelTitle>
+                                                         <a>
+                                                             <div class="fa fa-angle-right rotate"></div>
+                                                         </a>
+                                                         Do I need to make a payment?
+                                                        </ng-template>
+                                            <ng-template ngbPanelContent>
+                                                          No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is. No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is.
+                                          </ng-template>
+                                          </ngb-panel>
+                                          <ngb-panel id="static-5">
+                                                  <ng-template ngbPanelTitle>
+                                                         <a>
+                                                             <div class="fa fa-angle-right rotate"></div>
+                                                         </a>
+                                                         Do I need to make a payment?
+                                                        </ng-template>
+                                            <ng-template ngbPanelContent>
+                                                          No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is. No one cares about products. People care about ideas. Is a product an idea?
+                                                          Noup. Is a brand? A good one is.
+                                          </ng-template>
+                                          </ngb-panel>
+                                      </ngb-accordion>
+                          </div>
+                       </div>
+                      <h6 class="link">Still have a question? Reach out to us: <a>demo@123.com</a></h6>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="faq-img-block">
+                  <img src="assets/images/saas1/faq-img.png" class="img-fluid" alt="faq-person">
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- end faq section -->
+<app-footer></app-footer>

@@ -1,0 +1,26 @@
+<section class="ecommerce-tab">
+  <div class="container-fluid">
+      
+      <div class="row">
+          <div class="col-12 filter-section">
+              <div class="filter-container isotopeFilters">
+                  <ul class="list-inline filter">
+                      <li [ngClass]="{'active': activeCategory == 'all'}"><a data-filter="*" href="javascript:void(0)" (click)="getCategoryProduct('all')">All</a></li>
+                      <li [ngClass]="{'active': activeCategory == 'new'}"><a data-filter=".new"  href="javascript:void(0)" (click)="getCategoryProduct('new')">New</a></li>
+                      <li [ngClass]="{'active': activeCategory == 'trending'}"><a data-filter=".trending"  href="javascript:void(0)" (click)="getCategoryProduct('trending')">Trending</a></li>
+                      <li [ngClass]="{'active': activeCategory == 'western'}"><a data-filter=".branding"  href="javascript:void(0)" (click)="getCategoryProduct('western')">Western</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="isotopeContainer">
+          <div class="isotopeSelector">
+              <ngx-masonry [useImagesLoaded]="true" class="masonry-grid" class="m-layout">
+<div ngxMasonryItem class="m-width m-4-col" (load)="updateMasonryLayout = !updateMasonryLayout" *ngFor="let product of products">
+                   <app-project-box [products]="product" class="p-3col-width portfolio-margin p-0"></app-project-box>
+              </div>
+              </ngx-masonry>
+      </div>
+  </div>
+  </div>
+</section>

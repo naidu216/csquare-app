@@ -1,0 +1,289 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/service-img/1.jpg",
+        "name": "Architecture",
+        "note": "Planning",
+        "imagevideo":"assets/images/saas1/testimonial-video-icon.png",
+        "discription": "Our planning studio welcomes customer involvement in conception and commissioning of the project. our designs are sustainable preserving our roots & are budget friendly. We research Project background, contemplate it with reality, refine the alternative & present a working model saving time, money as well as human efforts.",
+        "status": "none",
+        "proj_completed": 5,
+        "ongoing_projects":10,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "variants": [
+            {
+                "id": "1",
+            "img": "assets/images/service-img/2.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Our Designs Speak…",
+            "content":"To seamlessly blend the communal space with building in question, we derive  a deep understanding of how a space will be used and who will use it. Our designs communicate & express our love & care to the community...............",
+            "btn":"read more"
+                
+            },
+            {
+                "id": "2",
+            "img": "assets/images/service-img/5.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Universal Design in Modern Layouts",
+            "content":"We at C Square developed a Universal design in Modern Layouts integrating Household activity focused Kitchens, open space layouts & Energy efficient devices to reduce  Green House effects...............",
+            "btn":"read more"
+              
+            },
+            {
+                "id": "3",
+            "img": "assets/images/service-img/7.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Adding value to your Business",
+            "content":"We prepare tailor-made designs for your businesses creating value to your brands. Our Designs add value to your brand, enhance your customer interaction to next level...............",
+            "btn":"read more"
+              }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/images/agency/blog/2.jpg",
+        "name": "Interior Design",
+        "note": "we are listening",
+        "imagevideo":"assets/images/saas1/testimonial-video-icon.png",
+        "discription": "We design spaces to give them a whole new look and feel. We challenge ourselves to meet the standards assessing the ups & nots, for creating a lively environment. We use best in class interior elements with intricate designs in display units, wardrobes, cabinets and kitchens balancing style function and utility.",
+        "status": "none",
+        "proj_completed": 5,
+        "ongoing_projects":10,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "variants": [
+            {
+                "id": "1",
+            "img": "assets/images/service-img/4.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"We leave no stone to be unturned.",
+            "content":"We design living spaces that don’t simply look good, we design them to feel good too which is suitable for enjoying family time and entertaining loved ones. It sets the tone of the home décor & remain as the showcase of your house................",
+            "btn":"read more"
+                
+            },  
+            {
+                "id": "2",
+            "img": "assets/images/servive-img/1.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Most happening place in our household",
+            "content":"Kitchen either conventional or modular they have to be efficient and ergonomic. For every woman in India, this is where they spend their happiest moments. We take it as a challenge to design your kitchen ensuring an efficient layout matching to your tastes.................",
+            "btn":"read more"
+              }
+              ,
+              
+            {
+                "id": "3",
+            "img": "assets/images/service-img/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Add Color & Life to the interiors",
+            "content":"Plants bring life into the interior & lit our daily lives. The best indoor plants add the right blend to the interiors which will make them stunning and breathtaking in their appearance.Picking a plant is not an art but placing it really needs skill.We help you in organizing the interiors with minimum maintenance and maximum efficiency..................",
+            "btn":"read more"
+              }
+              ,
+              
+            {
+                "id": "4",
+            "img": "assets/images/service-img/3.jpg",   
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"We ensure businesses of all kinds get their workspaces right",
+            "content":"Workspaces are complicated with an endless requirements. Our Expertise creates a simplified process for reimagining workspaces which will inspire your team & clients. A better architecture & interior designs helps in growing your business. We are single point of contact for your workspace..................",            "btn":"read more"
+              }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Renovation",
+        "note": "A place for your studio",
+        "imagevideo":"assets/images/saas1/testimonial-video-icon.png",
+        "discription": "All we want is a beautiful space to live or work in having a classic sensibility. No matter what the change, We at C Square transform your space into your ideal environment suiting your needs by offering our expertise. we analyse, evaluate & improve the space by refining ideas without disturbing the core. Our streamlined process brings out Quality Renovation that meets all your design specifications..",
+        "status": "none",
+        "proj_completed": 5,
+        "ongoing_projects":10,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "variants": [
+            {
+                "id": "1",
+                "img": "assets/images/agency/blog/6.jpg",
+                "date":"June 19, 2018",
+                "type":"Phonics ,Newyork",
+                "title":"We pitch an Emotional & Spiritual Connect in our designs.",
+                "content":"Emotional well being of an individual is connected to the ambience of the house especially bedroom where we seek relaxation irrespective of our mood. We ensure an aesthetic & retina pleasing designs for your bed room reflecting your favorite ideas & thoughts...............",
+                "btn":"read more"
+                      
+            },
+            {
+                "id": "2",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Furniture & Lighting sourcing the smart way",
+            "content":"The next best thing everyone want to do is to sit out with the family & eat. We remove the constraints of space with our flexible furniture which are easy to organize, affordable & adorable. After all We are a family as well................",
+            "btn":"read more"
+              },
+              
+            {
+                "id": "3",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "UrbanLandscapes",
+        "note": "Planning",
+        "imagevideo":"assets/images/saas1/testimonial-video-icon.png",
+        "discription": "Urban environments are complex interconnected among various field. We make plans meeting regulatory approval and go on for successful implementation. Several factors such as Increasing population, land scarcity, air, noise and water pollutions makes urban planning more challenging. Our technical understanding of this ailing environment allows us to redefine the urban living and working practices. We test our proposals built insight using various tools, analyse the outcome results and refine the proposals. This way we increase the practicality of the design.",
+        "status": "none",
+        "proj_completed": 5,
+        "ongoing_projects":10,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "variants": [
+            {
+                "id": "1",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+                
+            },
+            {
+                "id": "2",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              
+            },
+            {
+                "id": "3",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "InfraExecution",
+        "note": "Planning",
+        "imagevideo":"assets/images/saas1/testimonial-video-icon.png",
+        "discription": "Urban environments are complex interconnected among various field. We make plans meeting regulatory approval and go on for successful implementation. Several factors such as Increasing population, land scarcity, air, noise and water pollutions makes urban planning more challenging. Our technical understanding of this ailing environment allows us to redefine the urban living and working practices. We test our proposals built insight using various tools, analyse the outcome results and refine the proposals. This way we increase the practicality of the design..",
+        "status": "none",
+        "proj_completed": 5,
+        "ongoing_projects":10,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "variants": [
+            {
+                "id": "1",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+                
+            },
+            {
+                "id": "2",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              
+            },
+            {
+                "id": "3",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "assets/images/agency/blog/7.jpg",
+        "name": "Architecture",
+        "note": "Planning",
+        "imagevideo":"assets/images/saas1/testimonial-video-icon.png",
+        "discription": "Our planning studio welcomes customer involvement in conception and commissioning of the project. our designs are sustainable preserving our roots & are budget friendly. We research Project background, contemplate it with reality, refine the alternative & present a working model saving time, money as well as human efforts.",
+        "status": "none",
+        "proj_completed": 5,
+        "ongoing_projects":10,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "variants": [
+            {
+                "id": "1",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+                
+            },
+            {
+                "id": "2",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              
+            },
+            {
+                "id": "3",
+            "img": "assets/images/agency/blog/6.jpg",
+            "date":"June 19, 2018",
+            "type":"Phonics ,Newyork",
+            "title":"Twice profit than before you",
+            "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............",
+            "btn":"read more"
+              }
+        ]
+    }
+]

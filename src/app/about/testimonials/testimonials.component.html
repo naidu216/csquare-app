@@ -1,0 +1,107 @@
+<!--header start-->
+<section class="agency header" id="header">
+  <app-title-serv></app-title-serv>
+<!--Here Section Header-->
+</section>
+<!-- Nav Start-->
+
+<header class="app2 loding-header nav-abs custom-scroll">
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+        <nav class="fixed-top navbara" (scroll)="onWindowScroll($event);" style="padding-top:0px;padding-bottom:0px;">
+            <a href="javascript:void()" class="logo-light d-inline-block m-r-auto"><img src="assets/images/logo/9.png" alt="" class="img-fluid"></a>
+            <app-menu></app-menu>
+        </nav>
+      </div>
+  </div>
+</div>
+</header>
+<!-- Nav end-->
+
+<!--header end-->
+
+<section class="saas1 testimonial videos testimonial-bg">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="title title2 title-inner">
+                  <div class="main-title">
+                      <h2 class="font-primary borders text-center m-b-0"><span class="text-uppercase">testimonial 1</span>
+                      </h2>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+              <div class="center-content">
+                  <div class="video w-100">
+                      <a class="button center-content">
+                          <img src="assets/images/saas1/testimonial-video-icon.png" (click)="openVerticallyCentered(content)" alt="video" class="img-fluid">
+                          <ng-template #content let-modal>
+                                  <div class="modal-body video-modal">
+                                      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <iframe class="mfp-iframe" frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/dNIfsv1rKJo?autoplay=1"></iframe>
+                                  </div>
+                          </ng-template>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="testimonial-slider">
+                  <owl-carousel-o [options]="testimonialcarouselOptions1" class="testimonial-carousel ">
+                      <ng-container *ngFor="let slide of testimonialcarousel1">
+                          <ng-template carouselSlide>
+                  <div class="testimonial">
+                      <div class="testimonial-box">
+                          <img [src]="slide.quote" alt="dot">
+                          <h6>{{slide.review}}</h6>
+                      </div>
+                  </div>
+                  <div class="testi-profile">
+                      <div class="media">
+                          <img class="" [src]="slide.userImg"
+                               alt="profile-testimonial">
+                          <div class="media-body">
+                              <h5 class="mt-0">{{slide.userName}}</h5>
+                              <h6>{{slide.position}}</h6>
+                          </div>
+                      </div>
+                  </div>
+                  </ng-template>
+                  </ng-container>
+                  </owl-carousel-o>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Down Banner-->
+
+<section class="down-banner">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 p-0">
+              <div class="small-banner">
+                  <img alt="full banner" class="bg-img" src="assets/images/ecommerce/full-banner2.jpg">
+              </div>
+          </div>
+          <div class="container">
+              <div class="banner-contain">
+                  <div>
+                      <h3>Buy it and get 50% discount</h3>
+                      <a class="btn btn-default primary-btn  radius-0 mt-3" href="javascript:void()">View all</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--End of Banner Section-->
+
+
+<app-footer></app-footer>

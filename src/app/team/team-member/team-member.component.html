@@ -1,0 +1,106 @@
+<!--header start-->
+<section class="agency header" id="header">
+  <app-title-serv></app-title-serv>
+<!--Here Section Header-->
+</section>
+<!-- Nav Start-->
+
+<header class="app2 loding-header nav-abs custom-scroll">
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+        <nav class="fixed-top navbara" (scroll)="onWindowScroll($event);" style="padding-top:0px;padding-bottom:0px;">
+            <a href="javascript:void()" class="logo-light d-inline-block m-r-auto"><img src="assets/images/logo/9.png" alt="" class="img-fluid"></a>
+            <app-menu></app-menu>
+        </nav>
+      </div>
+  </div>
+</div>
+</header>
+<!-- Nav end-->
+<!--header end-->
+<!-- section start -->
+  <!-- Section ends -->
+  <!--header start-->
+<section class="resume header" id="header">
+    <div class="header7-content">
+        <div class="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <img src="assets/images/resume/h7.png" alt="" class="img-fluid set-abs bottom-0 right-0">
+                    </div>
+                    <div class="col-lg-6 col-md-6 offset-lg-1">
+                        <div class="center-text">
+                            <div>
+                                <div class="header-sub-text">
+                                    <h5 class="text-hash text-uppercase">{{team.note}}</h5>
+                                </div>
+                                <div class="header-text">
+                                    <h1><span class="bold-text">Hi, I’m</span><br>{{team.name}}</h1>
+                                </div>
+                                <div class="header-sub-text">
+                                    <h4 class="font-secondary">{{team.position}}<span>
+                                      </span></h4>
+                                </div>
+                                <div class="header-sub-text">
+                                    <p class="font-secondary font-large">
+                                        {{team.discription}}
+                                    </p>
+                                </div>
+                                <div class="link-horizontal">
+                                    <ul>
+                                        <li><a class="btn btn-default primary-btn back-white">know more</a></li>
+                                        <li><a class="btn btn-default primary-btn back-white">download cv</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--header end-->
+<!--about start-->
+<section class="resume about" id="about">
+  <div class="container">
+      <div class="title title2">
+          <div class="row">
+              <div class=" offset-md-2 col-md-8">
+                  <h6 class="font-primary borders main-text text-uppercase"><span>about</span></h6>
+                  <div class="sub-title">
+                      <div class="">
+                          <h2 class="title-text">About me</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-3 col-6">
+              <div class="text-center radial">
+                  <div data-label="95%" class="radial-bar radial-bar-primary">
+                  </div>
+                  <h4 class="color-light m-t-15">{{team.name}}</h4>
+                  <div class="border-container">
+                      <div class="borders-bottom"></div>
+                  </div>
+                  <div>
+                      <h4>{{team.id}}</h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="text-center m-t-50">
+          <a class="btn btn-default primary-btn">know more now</a>
+      </div>
+  </div>
+</section>
+<!--about end-->
+
+
+<app-team-detail></app-team-detail>
+<app-footer></app-footer>

@@ -1,0 +1,662 @@
+@import url('bootstrap.min.css');
+@import url('font-awesome.min.css');
+@import url('animate.css');
+@import url('hover.css');
+@import url('magnific-popup.css');
+@import url('owl.carousel.css');
+@import url('owl.transitions.css');
+@import url('settings.css');
+@import url('layers.css');
+@import url('navigation.css');
+
+
+/*-------------------------------------------------------------------------------
+  2. Header
+-------------------------------------------------------------------------------*/
+
+
+
+.header-inner .vertical-panel-content{
+  bottom:auto;
+  top:12.2vmin;
+}
+
+
+
+/* 2.1 Brand */
+
+
+
+.brand-panel{
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  top:0;
+  width: 39.47vmin;
+  height: 40.7vmin;
+  padding: 4.8vmin 2em 4.8vmin;
+  background-color: #f6f5f3;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.brand{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:4vmin;
+  line-height: 1;
+  color: #3d3d3d;
+}
+
+.brand:hover,
+.brand:focus{
+  color: #3d3d3d;
+  text-decoration: none;
+}
+
+.brand-name{
+  position: absolute;
+  z-index: -1;
+  bottom: -0.4em;
+  right:-0.37em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 8.75em;
+  line-height: 1;
+  opacity: 0.05;
+}
+
+.slide-number{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 8vmin;
+}
+
+.slide-number .current-number{
+  font-size: 8vmin;
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+.slide-number sup{
+  display: inline-block;
+  position: relative;
+  top:-3px;
+  font-size: 2vmin;
+  letter-spacing: 0.1em;
+  color: #3d3d3d;
+  vertical-align: top;
+  margin-left: 0.46em;
+}
+
+.slide-number sup .delimiter{
+  display: inline-block;
+  margin-right: 0.4em;
+}
+
+.header-phone{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 0.81em;
+  letter-spacing: 0.32em;
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  left: 50vmin;
+  top:5.9vmin;
+}
+
+ @media (max-width: 480px){
+  .header-phone{
+    display: none;
+  }
+ }
+
+  @media (min-width: 992px) and (max-width: 1200px){
+  .header-phone{
+    display: none;
+  }
+ }
+
+
+
+/* 2.2 Vertical Panel */
+
+
+
+.vertical-panel,
+.vertical-panel-content{
+  position: absolute;
+  width: 19.735vmin;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.vertical-panel{
+  z-index: 3;
+  height: 10000px;
+  background-color: #f6f5f3
+}
+
+.vertical-panel-content{
+  z-index: 4;
+}
+
+.vertical-panel-info{
+  margin-bottom: 3.5vmin;
+}
+
+.vertical-panel-info .line{
+  height: 5vmin;
+  width: 1px;
+  margin:15px auto 0;
+  background-color:#c5c4c2;
+}
+
+.vertical-panel-title{
+  font-family: 'montserratsemibold';
+  font-size: 10px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  color: #3d3d3d;
+  position: relative;
+  left: -6px;
+  margin:0 auto;
+  width: 1px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+   -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+@media (max-height: 850px){
+  .vertical-panel-title{
+    display: none;
+  }
+}
+
+.social-list{
+  margin-bottom: 3.5vmin;
+}
+
+.social-list li{
+  margin-top: 3.8vmin;
+}
+
+.social-list .fa{
+  font-size: 2.4vmin;
+  color: #c5c4c2;
+}
+
+.social-list .fa:hover{
+  color:#c5a47e;
+  text-decoration: none;
+}
+
+
+
+/*-------------------------------------------------------------------------------
+  3. Main
+-------------------------------------------------------------------------------*/
+
+
+
+.main{
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.main-inner{
+  position: relative;
+  z-index: 1;
+  min-height: 0;
+  padding: 33.7vmin 0 17vmin;
+}
+
+.main-inner:after{
+  content:'';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top:0;
+  background-color: #171717;
+  opacity: 0.6;
+}
+
+.main-projects,
+.main-contacts{
+  padding: 34.2vmin 0 34vmin;
+}
+
+.main-project{
+  padding: 33.7vmin 0 11vmin;
+  background-size: cover;
+  background-position: center 0;
+}
+
+.main-contacts:after{
+  content:'';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top:0;
+  opacity: 1;
+  background: -webkit-linear-gradient(bottom,  rgba(39,39,39,0.95) 0%,rgba(39,39,39,0.95) 26%,rgba(39,39,39,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top,  rgba(39,39,39,0.95) 0%,rgba(39,39,39,0.95) 26%,rgba(39,39,39,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.main-header{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: right;
+  padding-left: 38.5vmin;
+}
+
+.main-header h1{
+  color: #fff;
+  margin:0;
+  margin-right: -0.32em;
+}
+
+.main-inner .page-lines{
+  z-index: 1;
+  opacity: 0.15;
+}
+
+.main-inner .page-lines .line{
+  border-color: #fff;
+}
+
+.main-blog .page-lines,
+.main-projects .page-lines,
+.main-project .page-lines,
+.main-contacts .page-lines{
+  opacity: 0.08;
+}
+
+
+/* 3.1 Slider */
+
+
+
+.rev_slider{
+  color: #fff;
+  min-height: 420px;
+}
+
+.rev_slider .btn{
+  -webkit-transition: background-color .3s ease-out!important;
+          transition: background-color .3s ease-out!important;
+}
+
+.tp-caption{
+  padding: 0 20px;
+  text-align: right;
+}
+
+.arrow-left,
+.arrow-right{
+  position: absolute;
+  z-index: 4;
+  bottom: 4vh;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.arrow-left{
+  left: 22vmin;
+}
+
+.arrow-right{
+  right: 15px;
+}
+
+.arrow-left:after,
+.arrow-right:before{
+  content:'';
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.arrow-left:after{
+  content:'Prev';
+}
+
+.arrow-right:before{
+  content:'Next';
+}
+
+.arrow-left:before,
+.arrow-right:after{
+  content:'';
+  display: inline-block;
+  vertical-align: middle;
+  width:1.3em;
+  height: 1em;
+  opacity: 0.25;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.arrow-left:hover:before,
+.arrow-right:hover:after{
+  opacity: 1;
+}
+
+.arrow-left:before{
+  background: url(../img/img-icon/prev.png) 0 0 no-repeat;
+  background-size: 1.3em 1em;
+  margin-right: 0.82em;
+}
+
+.arrow-right:after{
+  background: url(../img/img-icon/next.png) 0 0 no-repeat;
+  background-size: 1.3em 1em;
+  margin-left: 0.72em;
+}
+
+.slide-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+.slide-subtitle{
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+/*  11. Responsive styles
+/* ------------------------------------------------------------------------------- */
+
+
+
+/* 11.1 Min width 768px */
+
+
+
+@media (min-width: 768px){
+
+
+
+  html{
+    font-size: 85%;
+  }
+
+
+
+  /* Slider */
+
+
+
+  .arrow-left{
+    top: 43.5vmin;
+    bottom: auto;
+  }
+
+  .arrow-right{
+    left: 28vmin;
+    right:auto;
+    margin-left: 5em;
+    top: 43.5vmin;
+    bottom: auto;
+  }
+
+
+
+  /* About */
+
+
+
+  .entry{
+    padding: 0 7.5em;
+  }
+
+  .col-about-spec{
+    padding: 0 4.4em;
+  }
+
+
+
+  /* Project Carousel */
+
+
+
+  .owl-prev{
+    left: 3.6em
+  }
+
+  .owl-next{
+    right:3.6em;
+  }
+
+
+
+  /* Projects Deatails */
+
+
+
+  .project-details{
+    margin-top: 7.1em;
+  }
+
+
+  .project-details-item{
+    margin-bottom: 7.1em;
+  }
+
+ .project-details-info{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top:13%;
+    bottom: 13%;
+    width: 55%;
+  }
+
+  .project-details-item:nth-child(odd) .project-details-img{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .project-details-item:nth-child(even) .project-details-img{
+    padding-right:15px;
+    padding-left: 15px;
+  }
+
+}
+
+
+
+/* 11.2 Min width 992px */
+
+
+
+@media (min-width: 992px){
+
+
+
+  html{
+    font-size: 92%;
+  }
+
+
+
+  /* Content styles */
+
+
+
+  .text-center-md{
+    text-align: center;
+  }
+
+  .text-right-md{
+    text-align: right;
+  }
+
+  .text-left-md{
+    text-align: left;
+  }
+
+
+  
+  /* Navbar Mobile */
+
+
+  .navbar-mobile{
+    position: absolute;
+    left: -50000px;
+    top: -50000px;
+  }
+
+
+
+  /* About */
+
+
+
+  .col-about-img{
+    padding-left: 0;
+    left: -5px;
+  }
+
+  .col-about-img img{
+    max-width: calc(100% + 5px);
+  }
+
+
+
+  /* Project Details */
+
+
+
+  .project-details-item:nth-child(odd) .project-details-img{
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+
+  .project-details-item:nth-child(even) .project-details-img{
+    padding-right:5px;
+    padding-left: 15px;
+  }
+
+
+
+  /* Blog Details */
+
+
+  
+  .col-primary{
+    padding-right: 2.2em;
+  }
+
+  .col-secondary{
+    margin-top: 10.62em;
+    margin-left: -5px;
+    padding:0 10px 0 0;
+  }
+
+
+
+  /* Contacts */
+
+
+  .row-field{
+    margin-left: -15px;
+  }
+
+  .col-map{
+    position:static;
+    height: 100%;
+  }
+}
+
+
+/* 11.3 Min width 1200px */
+
+
+
+@media (min-width: 1200px){
+
+
+   html{
+    font-size: 100%;
+  }
+
+
+
+   /* Header */
+
+
+
+  .main-header{
+    padding-left: 0;
+  }
+
+
+
+  /* Project Details */
+
+
+  .project-details-info{
+    width: 44%;
+  }
+
+}
+
+
+
+/* 11.4 Max height 480px  */
+
+
+
+  @media (max-height: 480px){
+
+
+
+  /* Slider */
+
+
+
+  .arrow-left{
+    top: 43.5vmin;
+    bottom: auto;
+  }
+
+  .arrow-right{
+    left: 28vmin;
+    right: auto;
+    margin-left: 5em;
+    top: 43.5vmin;
+    bottom: auto;
+  }
+}
+
+
